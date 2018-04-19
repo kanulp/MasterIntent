@@ -16,7 +16,7 @@ A lightweight android library for your project which include necessary # intents
   #### Also add include this line in app level gradle file 
   
  ``` dependencies {
-	        compile 'com.github.kanulp:MasterIntent:1.0.0'
+	        implementation 'com.github.kanulp:MasterIntent:1.0.0'
 	}
 ```
 
@@ -28,7 +28,7 @@ MasterIntent.intentDialPhone(getApplicationContext(),"99999999");
 
 //Gallery Image  
 Intent instaintent = MasterIntent.intentGalleryImage();
-startActivityForResult(instaintent,MasterIntent.MASTER_IMAGE_REQUEST_INSTAGRAM); //use available static reques code
+startActivityForResult(instaintent,MasterIntent.MASTER_IMAGE_REQUEST_INSTAGRAM); //use available static request code
 
 
 MasterIntent.intentWhatsappText(getApplicationContext(),"MasterIntent library by Karan Gajjar @kanulp.github.io");
@@ -48,7 +48,7 @@ startActivityForResult(i1,MasterIntent.MASTER_IMAGE_REQUEST_WHATSAPP);
 // fun getplaystoreurl available to use 
 MasterIntent.intentPlayStore(getApplicationContext());
 
-//pass string with lat,long and for lable pass it like "lat,long(my map)"
+//pass string with lat,long and for label pass it like "lat,long(my map)"
 MasterIntent.showMap(getApplicationContext(),"43.653226,-79.383184");
 
 //got to next activity pass data with bundle 
@@ -56,9 +56,7 @@ Bundle b = new Bundle();
 b.putString("name","kanulp.github.io");
 MasterIntent.intentNextActivity(getApplicationContext(), MasterIntentTargetActivity.class,b); //bundle is nullable 
 
-//and many more 
-
-check sample app
+//and many more check sample app
 
 ```
 
