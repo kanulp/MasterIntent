@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Dial Phone"
+        android:clickable="true"
+        android:id="@+id/button_dialphone"
+        android:layout_height="wrap_content" />
+<Button
+        android:layout_width="wrap_content"
+        android:text="Gallery Intent"
+        android:id="@+id/button_intentGalleryImage"
+        android:layout_height="wrap_content" />
+<Button
+        android:layout_width="wrap_content"
+        android:text="Instagram"
+        android:id="@+id/button_intentInstagram"
+        android:layout_height="wrap_content" />
+<Button
+        android:layout_width="wrap_content"
+        android:text="WhatsappText"
+        android:id="@+id/button_intentWhatsappText"
+        android:layout_height="wrap_content" />
+<Button
+        android:layout_width="wrap_content"
+        android:text="WhatsappTextAndImage"
+        android:id="@+id/button_intentWhatsappTextAndImage"
+        android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/button_intentPlayStore"
+            android:text="PlayStore"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/button_intentemail"
+            android:text="Email"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/button_intentmap"
+            android:text="Map"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/button_intentNextActivity"
+            android:text="Next Activity"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/button_webview"
+            android:text="Webview"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
